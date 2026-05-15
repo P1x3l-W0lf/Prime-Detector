@@ -1,0 +1,47 @@
+body{
+    font-family: sans-serif;
+    background-color: #47301d;
+    color: #7c5e3c;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapper{
+    background-color: navajowhite;
+    height: 95vh;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#content{
+    margin: auto 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    background-color: blanchedalmond;
+    border: #47301d 1px solid;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: bisque;
+    border: #47301d 2px outset;
+    box-shadow: 1px 1px 2px #47301d;
+}
+button:hover{
+    cursor: pointer;
+}
+button:active{
+    border-style: groove;
+    box-shadow: none;
+}
