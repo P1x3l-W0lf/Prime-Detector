@@ -40,7 +40,7 @@ function check() {
 
     if (primes.length > 0){
         if (primes.length > 1){
-            document.getElementById("output").innerHTML = `${primes.slice(0, -1).join(", ")}, and ${primes[-1]} are primes.`;
+            document.getElementById("output").innerHTML = `${primes.slice(0, -1).join(", ")}, and ${primes[primes.length-1]} are primes.`;
         } else document.getElementById("output").innerHTML = `${primes[0]} is prime.`;
     } else document.getElementById("output").innerHTML = "None of your numbers are prime."
 }
